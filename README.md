@@ -5,3 +5,7 @@
 ## RPM Package Installation
 - **sudo rpm -ivh R7ScanAssistant_amd64.rpm**
 - **etc/rapid7/ScanAssistant/config.json**
+## Allow port 21047
+- **sudo firewall-cmd --zone=public --permanent --add-port=21047/tcp**
+- **sudo firewall-cmd --zone=public --permanent --list-ports**
+- **sudo firewall-cmd --reload**
