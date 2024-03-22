@@ -1,8 +1,8 @@
-## DEB Package Installation
+## DEB Package Installation v1.3.3
 - **sudo dpkg -i R7ScanAssistant_amd64.deb**
 - **vi /etc/rapid7/ScanAssistant/config.json**
 - add key
-## RPM Package Installation
+## RPM Package Installation v1.3.3
 - **sudo rpm -ivh R7ScanAssistant_amd64.rpm**
 - **vi /etc/rapid7/ScanAssistant/config.json**
 - add key 
